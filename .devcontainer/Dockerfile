@@ -11,4 +11,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 # [Optional] Uncomment the next lines to use go get to install anything else you need
 # USER vscode
-# RUN go get -x <your-dependency-or-tool>
+# RUN go get -x github.com/gofiber/fiber/v2
